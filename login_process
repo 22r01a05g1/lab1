@@ -1,0 +1,66 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "toc_visible": true,
+      "authorship_tag": "ABX9TyPLBlK/VS/aMzThttYL687K",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/22r01a05g1/lab1/blob/main/login_process\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "fMuhysjEu88u",
+        "outputId": "429caf4e-f94e-44a2-fd97-21e298962c14"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Welcome to the instagram\n",
+            "Enter your credentials to login!\n",
+            "enter the password againytuyii\n",
+            "enter the password againgiugiu\n",
+            "enter the password againajith123\n",
+            "access is granted\n"
+          ]
+        }
+      ],
+      "source": [
+        "print(\"Welcome to the instagram\")\n",
+        "print(\"Enter your credentials to login!\")\n",
+        "correct_password = \"ajith123\"\n",
+        "input_password = \"\"\n",
+        "while input_password != correct_password:\n",
+        "    input_password = input(\"enter the password again\")\n",
+        "if input_password == correct_password:\n",
+        "   print(\"access is granted\")"
+      ]
+    }
+  ]
+}
